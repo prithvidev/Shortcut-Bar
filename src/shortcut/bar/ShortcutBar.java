@@ -28,6 +28,7 @@ public class ShortcutBar extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
 
+        jPanel1.setBackground(new java.awt.Color(153, 0, 0));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153)));
         jPanel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
@@ -48,7 +49,7 @@ public class ShortcutBar extends javax.swing.JFrame {
                 jButton2MouseReleased(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 12, 53, -1));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 0, 53, -1));
 
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/shortcut/bar/google.png"))); // NOI18N
         jButton3.setContentAreaFilled(false);
@@ -57,7 +58,7 @@ public class ShortcutBar extends javax.swing.JFrame {
                 jButton3MouseReleased(evt);
             }
         });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(11, 12, 53, -1));
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 53, -1));
 
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/shortcut/bar/twitter.png"))); // NOI18N
         jButton4.setContentAreaFilled(false);
@@ -66,7 +67,7 @@ public class ShortcutBar extends javax.swing.JFrame {
                 jButton4MouseReleased(evt);
             }
         });
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(129, 12, 53, -1));
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 0, 53, -1));
 
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/shortcut/bar/youtube.png"))); // NOI18N
         jButton5.setContentAreaFilled(false);
@@ -75,7 +76,7 @@ public class ShortcutBar extends javax.swing.JFrame {
                 jButton5MouseReleased(evt);
             }
         });
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(188, 12, 53, -1));
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 0, 53, -1));
 
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/shortcut/bar/email.png"))); // NOI18N
         jButton6.setContentAreaFilled(false);
@@ -89,7 +90,7 @@ public class ShortcutBar extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 10, 53, -1));
+        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 0, 53, -1));
 
         jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/shortcut/bar/facebook.png"))); // NOI18N
         jButton7.setContentAreaFilled(false);
@@ -98,7 +99,7 @@ public class ShortcutBar extends javax.swing.JFrame {
                 jButton7MouseReleased(evt);
             }
         });
-        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 10, 53, -1));
+        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 0, 53, -1));
 
         jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/shortcut/bar/instagram.png"))); // NOI18N
         jButton8.setContentAreaFilled(false);
@@ -107,7 +108,7 @@ public class ShortcutBar extends javax.swing.JFrame {
                 jButton8MouseReleased(evt);
             }
         });
-        jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(247, 12, 53, -1));
+        jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 0, 53, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
