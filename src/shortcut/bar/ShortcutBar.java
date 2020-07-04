@@ -161,16 +161,20 @@ public class ShortcutBar extends javax.swing.JFrame {
 
     private void jButton6MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton6MouseReleased
         try {
-            Desktop.getDesktop().browse(new URL("https://www.youtube.com/").toURI());
+            Desktop.getDesktop().browse(new URL("https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox").toURI());
             }catch (Exception e) {}
     }//GEN-LAST:event_jButton6MouseReleased
 
     private void jButton7MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton7MouseReleased
-        // TODO add your handling code here:
+        try {
+            Desktop.getDesktop().browse(new URL("https://www.facebook.com/").toURI());
+            }catch (Exception e) {}
     }//GEN-LAST:event_jButton7MouseReleased
 
     private void jButton8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton8MouseReleased
-        // TODO add your handling code here:
+        try {
+            Desktop.getDesktop().browse(new URL("https://www.instagram.com/").toURI());
+            }catch (Exception e) {}
     }//GEN-LAST:event_jButton8MouseReleased
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
